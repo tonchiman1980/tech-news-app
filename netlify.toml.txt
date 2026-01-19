@@ -1,0 +1,9 @@
+
+[build]
+  publish = "."
+  command = "echo 'Build started'"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
